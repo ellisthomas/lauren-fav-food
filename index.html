@@ -10,7 +10,7 @@
 <body ng-app="LauApp">
 
 	   <div>
-        <h1 class="list-inline center-block text-center">Laurens Snacks</h1>
+        <h1 class="list-inline center-block text-center">Laurens Animals</h1>
 	<div ng-controller="ItemCtrl"></div>
     </div>
     <div ng-controller="ItemCtrl">
@@ -18,7 +18,7 @@
             <div ng-show="showListView">
                 <div ng-repeat="item in items">
                     <div class="col-xs-6 col-xs-offset-3">
-                        <div class="list-inline center-block text-center">{{item.food}}</div>
+                        <div class="list-inline center-block text-center">{{item.animal}}</div>
                         <div class="list-inline center-block text-center"><img ng-src="{{item.image}}"</div>
                     </div>
                 </div>

@@ -7,13 +7,14 @@ app.controller("ItemCtrl", ($scope) => {
 	$scope.items = [
         {
           id: 0,
-          food: "pizza",
+          animal: "monkey",
         },
         {
-          food: "steak",
+          animal: "panda",
         },
         {
-          food: "cheese wiz",
+          animal: "koala",
+          image: "http://image.blingee.com/images18/content/output/000/000/000/771/729955780_825984.gif"
         }
       ];
 
